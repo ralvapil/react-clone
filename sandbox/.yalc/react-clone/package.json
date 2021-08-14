@@ -15,7 +15,6 @@
     "build": "tsdx build && yalc publish --push",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
@@ -44,13 +43,5 @@
       "limit": "10 KB"
     }
   ],
-  "devDependencies": {
-    "@size-limit/preset-small-lib": "^5.0.3",
-    "husky": "^7.0.1",
-    "rollup-plugin-execute": "^1.1.1",
-    "size-limit": "^5.0.3",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.3.1",
-    "typescript": "^4.3.5"
-  }
+  "yalcSig": "424ae0850412af88076f741b15d4a6f9"
 }

@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "react-clone": {
+      "signature": "424ae0850412af88076f741b15d4a6f9",
+      "file": true
+    }
+  }
+}
