@@ -8,21 +8,20 @@ Congrats! You just saved yourself hours of work by bootstrapping this project wi
 
 ## Commands
 
-TSDX scaffolds your new library inside `/src`.
-
-To run TSDX, use:
-
-```bash
-npm start # or yarn start
-```
-
-This builds to `/dist` and runs the project in watch mode so any edits you save inside `src` causes a rebuild to `/dist`.
-
-To do a one-off build, use `npm run build` or `yarn build`.
-
-To run tests, use `npm test` or `yarn test`.
+yarn start will set the package to dev mode and build it into /dist.
 
 ## Configuration
+
+In order to take advantage of the hot-reloading config between the sandbox and the package, you will need to install yalc and do the following:
+add the following to $HOME/nodemon.json:
+
+```bash
+{
+"ignoreRoot": [".git"]
+}
+```
+
+this will force nodemon to watch node_modules for changes.
 
 Code quality is set up for you with `prettier`, `husky`, and `lint-staged`. Adjust the respective fields in `package.json` accordingly.
 
