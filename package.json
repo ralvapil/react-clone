@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "tsdx watch",
+    "build-prod": "tsdx build",
     "build": "tsdx build && yalc publish --push",
     "test": "tsdx test",
     "lint": "tsdx lint",
