@@ -1,3 +1,3 @@
-export const sum = () => {
-  return 'test12345';
+export const sum = (a: number, b: number) => {
+  return a + b;
 };
